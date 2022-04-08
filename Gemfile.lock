@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jon (1.0.0)
+    jon (1.0.1)
       logging (~> 2.3.0)
       mini_exiftool_vendored (~> 9.2.7.v1)
 

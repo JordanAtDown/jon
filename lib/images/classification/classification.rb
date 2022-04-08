@@ -7,7 +7,7 @@ module Classification
   OTHER = "other"
 
   EXTENSIONS_PAR_PREFIXE = {
-    /jpg|jpeg|png|raw/ => PHOTO,
+    /jpg|jpeg|png|arw/ => PHOTO,
     /mp4|mov/ => VIDEO
   }.freeze
 
