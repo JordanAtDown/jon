@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_development_dependency "debase", "~> 0.2.4.1"
+  spec.add_development_dependency "debase", "~> 0.2.8"
   spec.add_development_dependency "mocha", "~> 1.13.0"
   spec.add_development_dependency "rspec-core", "~> 3.11.0"
   spec.add_development_dependency "rspec-parameterized", "~> 0.5.1"
