@@ -2,6 +2,7 @@
 
 module FileHelpers
   TMP = "/tmp/"
+  NOM = "tmp"
   RESSOURCES = File.expand_path("../resources", __dir__)
 
   IMAGE = "image.b64"

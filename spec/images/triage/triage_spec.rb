@@ -19,10 +19,10 @@ RSpec.describe Triage do
     with_them do
       it "en ajoutant une numerotation" do
         FileHelpers.build_fichiers(fichiers, "#{@dossier_tmp[0]}/")
+        chemin = File.dirname("#{@dossier_tmp[0]}/ANNEE 2011/MES SORTIES EN MONTAGNES/2021_01_10-15_10_52.jpeg")
+        triage = Triage.new([FileHelpers::NOM, "rspec_analyse"])
 
-        extract = Triage.new.extraction_du("nom")
-
-        expect(extract).to eq attendu
+        expect(triage.defini(chemin)).to eq attendu
       end
     end
 
