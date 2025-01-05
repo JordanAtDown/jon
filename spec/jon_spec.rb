@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "jon/version"
 
 RSpec.describe Jon do
