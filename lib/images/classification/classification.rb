@@ -8,7 +8,7 @@ module Classification
 
   EXTENSIONS_PAR_PREFIXE = {
     /jpg|jpeg|png|arw/ => PHOTO,
-    /mp4|mov/ => VIDEO
+    /mp3|mp4|mov/ => VIDEO
   }.freeze
 
   def self.get_type(extension)
